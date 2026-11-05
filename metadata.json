@@ -1,0 +1,6 @@
+{
+  "name": "Orbit Breaker & Gravity Shift Physics Arcade",
+  "description": "A futuristic space arcade featuring the 50-level Orbit Breaker brick-breaker and a 2D gravity-shifting platformer prototype with multi-directional physics and gravitational anomalies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

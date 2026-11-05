@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Rajdhani', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #060919;
+    color: #e2e8f0;
+    overflow-x: hidden;
+    user-select: none;
+  }
+  
+  .font-orbitron {
+    font-family: 'Orbitron', monospace, sans-serif;
+  }
+  
+  .font-rajdhani {
+    font-family: 'Rajdhani', sans-serif;
+  }
+}
+
+/* Custom scrollbar for cyber aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080d24;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e295d;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00f0ff;
+}
